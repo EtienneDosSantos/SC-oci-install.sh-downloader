@@ -37,6 +37,6 @@ fi
 ./venv/bin/pip install -r requirements.txt
 
 # Move new_install.sh into the root of stable-cascade-one-click-installer directory
-mv "$script_dir/new_install.sh" "$script_dir/stable-cascade-one-click-installer/"
+mv "$script_dir/install.sh" "$script_dir/stable-cascade-one-click-installer/"
 
 echo "Installation completed. Execute \`run.sh\` script to start generating!"
